@@ -1,0 +1,69 @@
+[13-Jul-2021 16:34:46 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[13-Jul-2021 16:40:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[13-Jul-2021 16:52:49 UTC] PHP Fatal error:  Cannot use [] for reading in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 6
+[13-Jul-2021 16:52:49 UTC] PHP Stack trace:
+[13-Jul-2021 16:52:49 UTC] PHP   1. {main}() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:0
+[13-Jul-2021 16:52:49 UTC] PHP   2. require() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:17
+[13-Jul-2021 16:52:49 UTC] PHP   3. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[13-Jul-2021 17:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:3
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#3 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[13-Jul-2021 17:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:3
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#3 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[13-Jul-2021 17:59:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_post() in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:3
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#3 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 3
+[13-Jul-2021 18:02:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_pernamlink() in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:5
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#3 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 5
+[13-Jul-2021 18:37:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[13-Jul-2021 18:37:09 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[13-Jul-2021 18:37:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[13-Jul-2021 18:38:21 UTC] PHP Warning:  Use of undefined constant wp_head - assumed 'wp_head' (this will throw an Error in a future version of PHP) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[13-Jul-2021 18:38:21 UTC] PHP Stack trace:
+[13-Jul-2021 18:38:21 UTC] PHP   1. {main}() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:0
+[13-Jul-2021 18:38:21 UTC] PHP   2. require() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:17
+[13-Jul-2021 18:38:21 UTC] PHP   3. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[13-Jul-2021 18:38:21 UTC] PHP   4. include() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[13-Jul-2021 18:38:21 UTC] PHP   5. get_header() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:1
+[13-Jul-2021 18:38:21 UTC] PHP   6. locate_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[13-Jul-2021 18:38:21 UTC] PHP   7. load_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[13-Jul-2021 18:38:21 UTC] PHP   8. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[13-Jul-2021 18:39:02 UTC] PHP Warning:  Use of undefined constant wp_head - assumed 'wp_head' (this will throw an Error in a future version of PHP) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[13-Jul-2021 18:39:02 UTC] PHP Stack trace:
+[13-Jul-2021 18:39:02 UTC] PHP   1. {main}() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:0
+[13-Jul-2021 18:39:02 UTC] PHP   2. require() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:17
+[13-Jul-2021 18:39:02 UTC] PHP   3. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[13-Jul-2021 18:39:02 UTC] PHP   4. include() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[13-Jul-2021 18:39:02 UTC] PHP   5. get_header() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:1
+[13-Jul-2021 18:39:02 UTC] PHP   6. locate_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[13-Jul-2021 18:39:02 UTC] PHP   7. load_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[13-Jul-2021 18:39:02 UTC] PHP   8. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[13-Jul-2021 18:39:02 UTC] PHP Warning:  Use of undefined constant wp_head - assumed 'wp_head' (this will throw an Error in a future version of PHP) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 4
+[13-Jul-2021 18:39:02 UTC] PHP Stack trace:
+[13-Jul-2021 18:39:02 UTC] PHP   1. {main}() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:0
+[13-Jul-2021 18:39:02 UTC] PHP   2. require() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php:17
+[13-Jul-2021 18:39:02 UTC] PHP   3. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[13-Jul-2021 18:39:02 UTC] PHP   4. include() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[13-Jul-2021 18:39:02 UTC] PHP   5. get_header() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php:1
+[13-Jul-2021 18:39:02 UTC] PHP   6. locate_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/general-template.php:48
+[13-Jul-2021 18:39:02 UTC] PHP   7. load_template() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:676
+[13-Jul-2021 18:39:02 UTC] PHP   8. require_once() /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template.php:730
+[13-Jul-2021 18:41:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 9
