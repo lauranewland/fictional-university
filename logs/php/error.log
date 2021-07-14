@@ -83,3 +83,21 @@ Stack trace:
   thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
 [13-Jul-2021 20:14:34 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
 [13-Jul-2021 20:14:34 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[14-Jul-2021 15:44:56 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 19 and exactly 1 expected in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/post.php:7329
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(19): wp_get_post_parent_id()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#3 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#4 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7329
+[14-Jul-2021 15:49:37 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 20
+[14-Jul-2021 15:52:50 UTC] PHP Parse error:  syntax error, unexpected '?>' in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 19
+[14-Jul-2021 16:00:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 21 and exactly 1 expected in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/post.php:7329
+Stack trace:
+#0 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php(21): wp_get_post_parent_id()
+#1 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include('/Users/fjorgede...')
+#2 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/fjorgede...')
+#3 /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/index.php(17): require('/Users/fjorgede...')
+#4 {main}
+  thrown in /Users/fjorgedevelopers/Local Sites/fictional-university/app/public/wp-includes/post.php on line 7329
