@@ -7,7 +7,7 @@
       <div class="page-banner__content container container--narrow">
       
       <!--this heading statment will handle the title of all archived items. You dont have much control over the output -->
-      <h1 class="page-banner__title">All Events></h1>
+      <h1 class="page-banner__title">All Events</h1>
             
         <div class="page-banner__intro">
           <p>See hat is going on in the world</p>
