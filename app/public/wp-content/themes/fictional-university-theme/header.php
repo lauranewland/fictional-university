@@ -16,18 +16,18 @@
         <div class="site-header__menu group">
           <nav class="main-navigation">
           
-          <!--Dynamic Menu -->
+          <!-- Dynamic Menu 
           <?php wp_nav_menu(array(
             'theme_location' => 'headerMenuLocation'
             )); ?>  
-          
-          <!-- <ul>
-              <li><a href="<?php echo site_url('/about-us')?>">About Us</a></li>
+          -->
+          <ul>
+              <li <?php if (is_page('about-us') or wp_get_post_parent_id(0) == 11) echo 'class="current-menu-item"' ?>><a href="<?php echo site_url('/about-us')?>">About Us</a></li>
               <li><a href="<?php echo site_url('/programs')?>">Programs</a></li>
               <li><a href="<?php echo site_url('/events')?>">Events</a></li>
               <li><a href="<?php echo site_url('/campuses')?>">Campuses</a></li>
-              <li><a href="<?php echo site_url('/blog')?>">Blog</a></li>
-            </ul> -->
+              <li <?php if (get_post_type() == 'post') echo 'class="current-menu-item"'; ?>><a href="<?php echo site_url('/blog')?>">Blog</a></li>
+            </ul> 
           </nav>
           <div class="site-header__util">
             <a href="#" class="btn btn--small btn--orange float-left push-right">Login</a>
