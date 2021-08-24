@@ -1,19 +1,11 @@
 <?php 
 
-  get_header(); ?>
-
-  <div class="page-banner">
-      <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg') ?>;)"></div>
-      <div class="page-banner__content container container--narrow">
-      
-      <!--this heading statment will handle the title of all archived items. You dont have much control over the output -->
-      <h1 class="page-banner__title">Past Events</h1>
-            
-        <div class="page-banner__intro">
-          <p>Recap of our Past Events</p>
-        </div>
-      </div>
-    </div>
+  get_header(); 
+  pageBanner(array(
+    'title' => 'Past Events',
+    'subtitle' => 'Recap of our Past Events'
+  ));
+  ?>
 
   <div class="container container--narrow page-section">
     

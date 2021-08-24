@@ -1,19 +1,11 @@
 <?php 
 
-  get_header(); ?>
-
-  <div class="page-banner">
-      <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg') ?>;)"></div>
-      <div class="page-banner__content container container--narrow">
-      
-      <!--this heading statment will handle the title of all archived items. You dont have much control over the output -->
-      <h1 class="page-banner__title">All Events</h1>
-            
-        <div class="page-banner__intro">
-          <p>See hat is going on in the world</p>
-        </div>
-      </div>
-    </div>
+  get_header(); 
+  pageBanner(array(
+    'title' => 'All Events',
+    'subtitle' => 'See whats going on in the world'
+  ));
+  ?>
 
   <div class="container container--narrow page-section">
     

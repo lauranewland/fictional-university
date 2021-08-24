@@ -1,28 +1,11 @@
 <?php 
 
-  get_header(); ?>
-
-  <div class="page-banner">
-      <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('images/ocean.jpg') ?>;)"></div>
-      <div class="page-banner__content container container--narrow">
-      
-      <!--this heading statment will handle the title of all archived items. You dont have much control over the output -->
-      <h1 class="page-banner__title"><?php the_archive_title(); ?></h1>
-
-      <!-- This gives you more control over the wording for each archive category however you would need to do this for all 
-        <h1 class="page-banner__title"><?php if (is_category()) {
-            single_cat_title();
-            }
-            if (is_author()) {
-                echo 'Post By '; the_author();
-            } ?></h1> 
-        -->
-            
-        <div class="page-banner__intro">
-          <p><?php the_archive_description(); ?></p>
-        </div>
-      </div>
-    </div>
+  get_header(); 
+  pageBanner(array(
+    'title' => get_the_archive_title(),
+    'subtitle' => get_the_archive_description()
+  ));
+  ?>
 
   <div class="container container--narrow page-section">
     <?php 
