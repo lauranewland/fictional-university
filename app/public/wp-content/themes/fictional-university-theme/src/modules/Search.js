@@ -45,9 +45,11 @@ class Search {
   }
 
   getResults() {
-    $.getJSON(universityData.root_url + 'wp-json/wp/v2/posts?search=' + this.searchField.val(), posts => {
-      $.getJSON(universityData.root_url + 'wp-json/wp/v2/pages?search=' + this.searchField.val() , pages => {
-        var combinedResults = posts.concat();
+    $.when(
+      $.getJSON(universityData.root_url + 'wp-json/wp/v2/posts?search=' + this.searchField.val()), 
+      $.getJSON(niversityData.root_url + 'wp-json/wp/v2/pages?search=' + this.searchField.val())
+      ).then((post, pages) => {
+      var combinedResults = posts[0].concat(pages[0]);
         this.resultsDiv.html(`
           <h2 class="search-overlay__section-title">General Information</h2>
           ${combinedResults.length ? '<ul class="link-list min-list">' : '<p>No General info Matches that Search</p>' }
@@ -55,7 +57,8 @@ class Search {
           ${combinedResults.length ? '</ul>' : ''}
         `);
         this.isSpinnerVisible = false;
-      })
+    }, () => {
+      this.resultsDiv.html('<p>Unexpected Error please try again</p>')
     });
   }
 
